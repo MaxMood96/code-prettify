@@ -1702,14 +1702,14 @@ var prettyPrint;
 })();
 
 
-var path = require('path');
+// var path = require('path');
 
 module.exports = {
   prettyPrint: prettyPrint,
-  prettyPrintOne: prettyPrintOne,
+  prettyPrintOne: prettyPrintOne
   // include paths for css preprocessor support
-  includePaths: [
-    __dirname,
-    path.resolve(__dirname, '../styles')
-  ]
+//  includePaths: [
+//    __dirname,
+//    path.resolve(__dirname, '../styles')
+//  ]
 };
